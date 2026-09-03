@@ -1,5 +1,5 @@
 Django==5.0
 djangorestframework==3.14.0
-CMD ["sh", "-c", "gunicorn YOUR_PROJECT.wsgi:application --bind 0.0.0.0:$PORT"]
+gunicorn==23.0.0
 django-cors-headers
 Pillow
