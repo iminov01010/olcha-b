@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-vixoz(x(9(l(o3_ku9u&-%b87o0&r26*do&8qiw57n8rw(@@7z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
